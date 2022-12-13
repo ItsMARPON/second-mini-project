@@ -50,7 +50,7 @@ block main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+    }
 
 .column {
         display: flex;

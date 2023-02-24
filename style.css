@@ -4,11 +4,20 @@
   --code-text-color: #f7f3f3;
   --text-color: #ed58fe;
 }
-h1,
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--header-color);
+}
+
 h2 {
   font-size: 30px;
   text-align: center;
   color: var(--text-color);
+}
+
+#header-p {
+  color: var(--code-text-color);
 }
 
 body {
@@ -25,9 +34,6 @@ p {
   main {
     flex-direction: column;
   }
-  /* header {
-    background-color: var(--main-bg-color);
-  } */
 }
 
 .row {

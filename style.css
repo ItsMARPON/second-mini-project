@@ -19,6 +19,7 @@ body {
 p {
   color: var(--text-color);
   background-color: var(--main-bg-color);
+  padding: 2% 5%;
 }
 
 
@@ -66,4 +67,6 @@ p {
   position: relative;
   margin-top: -20px;
   background-color: var(--main-bg-color);
+  border-style: double;
+  border-color: var(--code-text-color);
 }
